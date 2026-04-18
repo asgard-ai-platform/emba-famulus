@@ -37,7 +37,7 @@
 - **特別注意**：補 `biz-financial-ratios`、`data-financial-analysis` 未覆蓋的「管理會計」層
 - **範例情境**：製造業轉撥計價爭議、責任中心績效評核
 
-### [ ] 2. `ops-leadership-styles`
+### [x] 2. `ops-leadership-styles`
 - **出處**：台大、政大、師大
 - **核心內容**：轉型／交易／僕人／情境／真誠領導之情境選用決策樹
 - **關鍵產出**：決策樹（情境 → 建議領導風格）
