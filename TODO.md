@@ -49,7 +49,7 @@
 - **注意與 Asgard `grad-sdt` 的邊界**：本 skill 為「綜合 OB 工具箱」，`grad-sdt` 為單一理論深挖
 - **範例情境**：新任主管診斷團隊、文化改造
 
-### [ ] 4. `ops-talent-strategy`
+### [x] 4. `ops-talent-strategy`
 - **出處**：政大、成大
 - **核心內容**：9-box、繼任規劃、職能模型、人才盤點
 - **補位**：策略人資層，與 `algo-hr-*`（演算工具）互補
