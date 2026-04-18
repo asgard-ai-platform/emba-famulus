@@ -1,0 +1,6 @@
+# 覆蓋全域 gitignore 對 .claude/ 的忽略
+# 共用的 Claude Code 設定要 check in，但個人本地設定繼續忽略
+!.claude/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/*.lock
