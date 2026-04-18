@@ -31,7 +31,7 @@
 
 ## P0 — 高度推薦（跨校共通、Asgard 無覆蓋）
 
-### [ ] 1. `biz-management-accounting`
+### [x] 1. `biz-management-accounting`
 - **出處**：台大、陽交、成大（EMBA 核心必修）
 - **核心內容**：ABC 作業成本、差異分析、轉撥計價、責任中心會計
 - **特別注意**：補 `biz-financial-ratios`、`data-financial-analysis` 未覆蓋的「管理會計」層
