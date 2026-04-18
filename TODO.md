@@ -43,7 +43,7 @@
 - **關鍵產出**：決策樹（情境 → 建議領導風格）
 - **範例情境**：接班交棒、組織變革、危機領導
 
-### [ ] 3. `ops-org-behavior`
+### [x] 3. `ops-org-behavior`
 - **出處**：陽交、清大、師大
 - **核心內容**：動機理論（Maslow/Herzberg/SDT）、Tuckman 團隊發展、Schein 組織文化
 - **注意與 Asgard `grad-sdt` 的邊界**：本 skill 為「綜合 OB 工具箱」，`grad-sdt` 為單一理論深挖
