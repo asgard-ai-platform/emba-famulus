@@ -1,22 +1,22 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)",
-      "Bash(ls:*)",
-      "Bash(cat:*)",
-      "Bash(wc:*)",
-      "Bash(find:*)",
-      "Bash(tree:*)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(wc *)",
+      "Bash(find *)",
+      "Bash(tree *)",
       "Bash(git status)",
-      "Bash(git status:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git log:*)",
-      "Bash(git diff:*)",
-      "Bash(git show:*)",
+      "Bash(git status *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git show *)",
       "Bash(git branch)",
-      "Bash(git branch:*)",
-      "Bash(git restore:*)",
+      "Bash(git branch *)",
+      "Bash(git restore *)",
       "Read",
       "Write",
       "Edit",
@@ -24,10 +24,10 @@
       "Glob"
     ],
     "deny": [
-      "Bash(git push:*)",
-      "Bash(git reset --hard:*)",
-      "Bash(git clean:*)",
-      "Bash(rm:*)"
+      "Bash(git push *)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean *)",
+      "Bash(rm *)"
     ]
   }
 }
