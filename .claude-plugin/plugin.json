@@ -1,0 +1,32 @@
+{
+  "name": "emba-famulus",
+  "version": "0.1.0",
+  "description": "陪伴台灣 EMBA 學員完成課堂作業、個案分析、期末報告、畢業論文的 agent plugin。Famulus 拉丁文為『助手／學徒』。整合 Asgard 上游 skills 並補充 13 個 EMBA 專屬 skill（管理會計、家族企業、習慣領域、M&A、ERM、永續轉型等），搭配 6 個作業場景 workflow。鎖定台灣八大 EMBA：台大、政大、陽明交大、清大、成大、中山、台師大、中央。",
+  "author": {
+    "name": "Chris Yuan",
+    "url": "https://github.com/shyuan"
+  },
+  "homepage": "https://github.com/shyuan/emba-famulus",
+  "repository": "https://github.com/shyuan/emba-famulus",
+  "license": "MIT",
+  "keywords": [
+    "emba",
+    "business-school",
+    "taiwan",
+    "case-analysis",
+    "thesis",
+    "strategy",
+    "finance",
+    "marketing",
+    "governance",
+    "esg",
+    "family-business",
+    "m-and-a"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "EMBA Famulus",
+    "shortDescription": "Taiwan EMBA 作業與個案分析助手",
+    "category": "education"
+  }
+}

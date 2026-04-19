@@ -116,7 +116,7 @@
 
 ## 附加產出（全部 skill 完成後）
 
-### [ ] 14. `workflows/` 目錄
+### [x] 14. `workflows/` 目錄
 
 依 CLAUDE.md「作業場景 workflow」表格建立：
 
@@ -127,11 +127,11 @@
 - `workflows/executive-pitch.md`（高管簡報）
 - `workflows/esg-report.md`（ESG 報告）
 
-### [ ] 15. `plugin.json`
+### [x] 15. `plugin.json`
 
 最小可用 manifest，能被 Claude Code / OpenCode 識別為 plugin。
 
-### [ ] 16. `README.md`
+### [x] 16. `README.md`
 
 面向使用者的入口文件（非 CLAUDE.md 的開發者視角）。
 
