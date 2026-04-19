@@ -61,7 +61,7 @@
 - **與 Asgard 邊界**：Asgard `grad-governance` 偏學理，本 skill 偏實務 playbook
 - **範例情境**：IPO 前治理結構設計、家族企業專業化
 
-### [ ] 6. `biz-net-zero-transition`
+### [x] 6. `biz-net-zero-transition`
 - **出處**：陽交、政大
 - **核心內容**：SBTi、範疇 1/2/3、ISO 14064 碳盤查、TCFD 揭露
 - **台灣特殊性**：金管會永續揭露要求、碳費制度
