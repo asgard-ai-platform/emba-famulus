@@ -25,13 +25,13 @@
 
 ```bash
 # 安裝（待 marketplace 上架後）
-/plugin install shyuan/emba-famulus
+/plugin install asgard-ai-platform/emba-famulus
 ```
 
 ### 方式 B：手動 clone
 
 ```bash
-git clone https://github.com/shyuan/emba-famulus.git ~/.claude/plugins/emba-famulus
+git clone https://github.com/asgard-ai-platform/emba-famulus.git ~/.claude/plugins/emba-famulus
 
 # 驗證安裝
 /plugins
@@ -208,5 +208,5 @@ MIT License — 詳見 [LICENSE](LICENSE)。
 
 ## 聯絡與問題回報
 
-- GitHub Issues：[https://github.com/shyuan/emba-famulus/issues](https://github.com/shyuan/emba-famulus/issues)
+- GitHub Issues：[https://github.com/asgard-ai-platform/emba-famulus/issues](https://github.com/asgard-ai-platform/emba-famulus/issues)
 - 作者：Chris Yuan（[@shyuan](https://github.com/shyuan)）
