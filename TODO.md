@@ -73,7 +73,7 @@
 - **與 Asgard 邊界**：`ux-lean-startup`、`grad-disruptive-innovation` 已存在，本 skill 聚焦「企業內創新治理」
 - **範例情境**：成熟企業第二曲線、創新專案組合管理
 
-### [ ] 8. `ops-digital-transformation`
+### [x] 8. `ops-digital-transformation`
 - **出處**：多校
 - **核心內容**：執行 playbook — 成熟度評估、轉型治理、Operating Model
 - **與 Asgard 邊界**：`grad-digital-transformation` 偏學理，本 skill 偏執行
@@ -83,7 +83,7 @@
 
 ## P1 — 獨特性強（具區辨價值）
 
-### [ ] 9. `grad-habitual-domain`
+### [x] 9. `grad-habitual-domain`
 - **出處**：陽交招牌課（游伯龍 P.L. Yu）
 - **核心內容**：習慣領域理論、突破思維定勢的七層決策
 - **為何值得**：**台灣原生理論**，國際文獻仍引用 → 陽交 EMBA 辨識度高
