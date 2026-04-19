@@ -95,7 +95,7 @@
 - **為何值得**：台灣產業結構剛需（98% 為中小企業）
 - **範例情境**：家族股權規劃、二代職業化
 
-### [ ] 11. `biz-crm-strategy`
+### [x] 11. `biz-crm-strategy`
 - **出處**：師大
 - **核心內容**：客戶分層、Journey Orchestration、CDP 整合
 - **補位**：`biz-cac-ltv`（戰術）之上的戰略層
