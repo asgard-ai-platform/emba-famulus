@@ -323,3 +323,42 @@
 - Bonnet, D., & Westerman, G. (2021). *The New Elements of Digital Transformation*. MIT Sloan.
 - Gothelf, J., & Seiden, J. (2016). *Lean UX* (2nd ed.).
 - Kniberg, H., & Ivarsson, A. (2012). *Scaling Agile @ Spotify*.
+
+---
+
+## DX KPI 五層架構
+
+### 策略層
+- 數位收入占比
+- 新商業模式營收
+- 客戶生命週期價值（LTV）
+- 市佔率變化
+
+### 營運層
+- 自動化率（自動 vs. 手動流程比例）
+- 訂單處理時間
+- 客戶滿意度（NPS）
+- 員工生產力
+
+### 技術層
+- 系統可用性（SLA）
+- 資料品質指標
+- AI 模型準確率
+- 資安事件數
+
+### 組織層
+- 數位人才比例
+- 員工數位素養
+- 敏捷團隊佔比
+- 離職率（特別是數位人才）
+
+### 轉型治理層
+- 轉型專案 on-time、on-budget 比例
+- Steering Committee CEO 出席率
+- 跨部門協作滿意度
+
+## KPI 設計原則
+- 五層必須平衡，不可獨尊策略層或技術層
+- 每層建議 3–5 個指標，超過 15 個 KPI 難以管理
+- 與 DX 成熟度對齊：L1–L2 重營運與技術層、L3 強化策略與組織、L4–L5 強化治理
+- 年度檢視並剔除過時指標
