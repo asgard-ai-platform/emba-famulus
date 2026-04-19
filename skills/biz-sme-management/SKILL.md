@@ -1,6 +1,6 @@
 ---
 name: "biz-sme-management"
-description: "中小企業與家族企業管理 — 針對台灣 98% 以家族／中小型為主的產業結構，整合資源受限決策、家族治理、二代接班、職業化四大主軸。當使用者面對『員工 30 人以下如何做策略』、『資金有限的決策優先序』、『家族成員與專業經理人衝突』、『創辦人交棒規劃』、『家族憲章設計』、『SME 融資限制』等議題時觸發。常見句型：『二代接班』、『家族企業』、『中小企業』、『家族憲章』、『家族辦公室』、『傳承規劃』、『小公司策略』、『資源很有限』、『家族跟專業經理人』。適用成大 EMBA 中小企業策略、政大 EMBA 家族企業傳承、逢甲 EMBA 中小企業經營之個案與實務報告。補位 Asgard 所缺的『資源受限下的策略選擇』與『華人家族治理』兩大現實議題。"
+description: "SME and family-business management for Taiwan's industrial structure (98% SME, 70%+ family-controlled listed). Integrates four pillars: resource-constrained decision-making, family governance (Tagiuri-Davis three circles), four-layer succession, and professionalization. Use for sub-200-employee strategy, capital-constrained prioritization, family-vs-professional-manager conflict, founder handover, family-constitution design, or SME financing limits. Triggers: 『二代接班』『家族企業』『中小企業』『家族憲章』『家族辦公室』『傳承規劃』『小公司策略』『資源有限』『家族跟專業經理人』『三圓模型』『隱形冠軍』. For 成大 EMBA SME strategy, 政大 EMBA family-business succession, 逢甲 EMBA SME management cases. Fills Asgard gaps in resource-constrained strategy and Chinese-family governance."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["sme", "family-business", "succession", "resource-constraint", "family-governance", "second-generation", "taiwan", "emba"]

@@ -1,6 +1,6 @@
 ---
 name: "grad-habitual-domain"
-description: "習慣領域理論（Habitual Domain, HD）— 由台灣學者游伯龍（P.L. Yu）教授於 1977 年提出的決策認知與突破思維定勢理論。本 skill 整合四種領域（潛在／實際／可及／可觸發）、八大通性、七層決策結構、與九大擴展工具，協助學員分析決策盲點、突破慣性思維、進行跨域整合。當使用者需要分析『為什麼想不到別的方案』、『決策為何卡住』、『如何跳出既有框架』、『為什麼不同人看同一件事差這麼大』、『陽交 EMBA 習慣領域作業／個案』時觸發。常見句型：『思維框架』、『打破盲點』、『創新思考』、『決策盲區』、『跨域整合』、『游伯龍』、『習慣領域』、『HD 理論』、『七層決策』。特別適用陽明交大 EMBA、政大科管所、中山企管系之決策分析、創新管理、領導力課程。台灣原生管理理論，國際文獻仍持續引用（J. Optimization Theory, Theory & Decision, Human Systems Management）。"
+description: "Habitual Domain (HD) theory by Taiwanese scholar P.L. Yu (游伯龍, 1977) — integrates four domains (potential/actual/reachable/activated), eight general hypotheses, seven-layer decision structure, and nine HD-expansion tools to analyze decision blind spots, break cognitive inertia, and support cross-domain integration. Use for diagnosing why alternatives are invisible, decision paralysis, breaking cognitive frames, or explaining perception gaps between people. Triggers: 『思維框架』『打破盲點』『創新思考』『決策盲區』『跨域整合』『游伯龍』『習慣領域』『HD 理論』『七層決策』『四領域』『八大通性』『P.L. Yu』. Especially for NYCU EMBA HD course, 政大科管所, 中山企管系 decision-analysis/innovation/leadership courses. Taiwan-origin theory cited in J. Optimization Theory, Theory & Decision, Human Systems Management."
 metadata:
   category: "WP-10 研究所—理論"
   tags: ["habitual-domain", "pl-yu", "decision-theory", "cognitive-framework", "innovation-thinking", "nycu", "yu-pohlung", "emba"]

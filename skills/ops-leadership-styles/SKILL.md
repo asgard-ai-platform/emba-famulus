@@ -1,6 +1,6 @@
 ---
 name: "ops-leadership-styles"
-description: "依情境選用合適領導風格（轉型／交易／僕人／情境／真誠）並產出情境決策樹。當使用者需要診斷當前領導挑戰、規劃接班交棒、推動組織變革、危機應變、帶領新團隊或面對世代差異時觸發。常見句型：『我該用什麼領導風格』、『怎麼帶這個團隊』、『接班要注意什麼』、『危機時要強硬還是同理』、『年輕員工不吃這一套怎麼辦』、『要威權還是授權』。適用 EMBA 領導課程個案分析、高管自我診斷、接班規劃。"
+description: "Leadership-style decision framework combining transformational, transactional, servant, situational, and authentic leadership into a situation-based decision tree. Use for diagnosing leadership challenges, succession planning, change management, crisis response, taking over a new team, or generational-gap issues. Triggers: 『該用什麼領導風格』『怎麼帶這個團隊』『接班交棒』『危機領導』『年輕員工不吃這一套』『威權還是授權』『轉型領導』『僕人領導』『情境領導』『真誠領導』. For Taiwan EMBA leadership courses (台大／政大／師大), executive self-diagnosis, and succession design."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["leadership", "transformational", "transactional", "servant-leadership", "situational-leadership", "authentic-leadership", "emba"]

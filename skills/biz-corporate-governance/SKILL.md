@@ -1,6 +1,6 @@
 ---
 name: "biz-corporate-governance"
-description: "公司治理實務 playbook：涵蓋董事會組成、三道防線、審計／薪酬／提名委員會運作、獨立董事治理、利害關係人溝通、IPO 治理結構升級、家族企業治理專業化。當使用者需要設計董事會結構、審議獨立董事人選、導入三道防線、規劃 IPO 治理升級、處理重大治理爭議（舞弊、弊案、內線交易）、家族企業法人化時觸發。常見句型：『董事會要怎麼組』、『獨董為何沒發揮功能』、『三道防線怎麼畫』、『要上櫃了治理怎麼補強』、『家族怎麼法人化』、『委員會該怎麼分工』、『ESG 治理要報什麼』。適用 EMBA 公司治理、金融業、法律、ESG 課程之個案分析、期末報告與專題研究。本 skill 偏『上市公司與 IPO 實務』，公共治理理論請用 Asgard `grad-governance`。"
+description: "Corporate-governance practice playbook: board composition, three lines of defense, audit/compensation/nomination committee operations, independent-director governance, stakeholder communication, IPO governance upgrade, and family-business professionalization. Use for board-structure design, independent-director selection, three-lines implementation, IPO governance preparation, major governance incidents (fraud, scandal, insider trading), or family-business corporatization. Triggers: 『董事會組成』『獨董沒發揮功能』『三道防線』『上櫃治理補強』『家族法人化』『委員會分工』『ESG 治理』『審計委員會』『薪酬委員會』『提名委員會』. For Taiwan EMBA corporate-governance/finance/law/ESG cases. Focuses on listed-company and IPO practice; governance theory: use Asgard `grad-governance`."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["corporate-governance", "board", "independent-director", "three-lines-of-defense", "audit-committee", "ipo", "family-business", "emba", "taiwan"]

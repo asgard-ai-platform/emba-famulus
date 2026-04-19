@@ -1,6 +1,6 @@
 ---
 name: "biz-innovation-management"
-description: "企業內創新治理工具箱：整合 Stage-Gate 流程、3 Horizons 模型、創新專案組合管理、開放式創新（Open Innovation）、企業創投（CVC）、Innovation KPI、企業內創業（Intrapreneurship）為可操作流程。當使用者需要設計創新組合、規劃第二曲線、建立創新專案審議機制、評估開放式創新合作、導入企業創投、設計創新績效指標、處理既有事業與新事業張力時觸發。常見句型：『第二曲線』、『創新專案怎麼管』、『新事業怎麼孵化』、『要不要收購 / 投資新創』、『Stage-Gate 怎麼設計』、『研發投資組合』、『內部創業』、『開放式創新』。適用 EMBA 創新管理、策略、科技管理課程之個案分析與專題。本 skill 偏『成熟企業內創新治理』，新創起步請用 Asgard `ux-lean-startup`，創新學理請用 Asgard `grad-disruptive-innovation`、`grad-ambidexterity`。"
+description: "Corporate innovation-governance toolkit integrating Stage-Gate process, 3 Horizons model, innovation portfolio management, open innovation, corporate venture capital (CVC), innovation KPIs, and intrapreneurship. Use for innovation-portfolio design, second-curve planning, innovation-project review gating, open-innovation evaluation, CVC setup, innovation-KPI design, or managing tension between core and new businesses. Triggers: 『第二曲線』『創新專案怎麼管』『新事業孵化』『收購投資新創』『Stage-Gate』『研發投資組合』『內部創業』『開放式創新』『CVC』『3 Horizons』『創新 KPI』. For Taiwan EMBA innovation-management/strategy/technology-management cases (台大／中山). Startup basics: use Asgard `ux-lean-startup`; innovation theory: use Asgard `grad-disruptive-innovation`, `grad-ambidexterity`."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["innovation-management", "stage-gate", "3-horizons", "open-innovation", "cvc", "intrapreneurship", "portfolio", "emba"]

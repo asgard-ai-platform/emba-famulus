@@ -1,6 +1,6 @@
 ---
 name: "ops-digital-transformation"
-description: "數位轉型執行 playbook：涵蓋成熟度評估、轉型藍圖設計、Operating Model 重構、PMO 與轉型治理、資料平台與 AI 落地、流程數位化、組織敏捷化、數位人才與變革管理。當使用者需要設計公司 DX 路線圖、建立轉型治理結構（數位長、PMO、Steering Committee）、規劃資料 / AI / 雲端平台、評估 ERP 或核心系統升級、進行傳統產業的數位化、處理 DX 的組織阻抗時觸發。常見句型：『DX 從哪開始』、『數位長要做什麼』、『資料平台怎麼建』、『AI 怎麼落地』、『傳產要怎麼數位化』、『ERP 要不要換』、『轉型辦公室怎麼組』、『員工不配合數位化怎麼辦』。適用 EMBA 資訊管理、數位轉型、策略、營運、組織變革課程之個案分析與專題。本 skill 偏『執行』，學理層請用 Asgard `grad-digital-transformation`、`grad-sociotechnical`、`grad-tam-utaut`。"
+description: "Digital-transformation execution playbook: maturity assessment, transformation roadmap, Operating Model redesign, PMO and transformation governance, data/AI platform deployment, process digitization, organizational agility, digital talent, and change management. Use for DX roadmap design, transformation governance (CDO/PMO/Steering Committee), data/AI/cloud platform planning, ERP or core-system upgrade, traditional-industry digitization, or DX organizational resistance. Triggers: 『DX 從哪開始』『數位長』『資料平台』『AI 落地』『傳產數位化』『ERP 要不要換』『轉型辦公室』『員工不配合數位化』『Operating Model』『敏捷轉型』『PMO』. For Taiwan EMBA info-management/DX/strategy/operations/change courses. Focuses on execution; theory layer: use Asgard `grad-digital-transformation`, `grad-sociotechnical`, `grad-tam-utaut`."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["digital-transformation", "dx", "operating-model", "data-platform", "ai-deployment", "pmo", "change-management", "emba"]

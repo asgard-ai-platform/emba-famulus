@@ -1,6 +1,6 @@
 ---
 name: "biz-management-accounting"
-description: "以管理會計工具（ABC 作業成本、差異分析、轉撥計價、責任中心會計）支援內部決策與績效評核。當使用者需要分析產品真實成本、解讀預實差異、設計事業部間內部交易價格、或評核部門經理人績效時觸發。常見句型：『這個產品真的賺錢嗎』、『成本分攤不公平』、『事業部之間怎麼算錢』、『為什麼本月成本超支』、『我要評核廠長的績效』、『要怎麼做內部轉撥』。適用 EMBA 個案分析、期末報告、管理決策模擬。"
+description: "Management accounting toolkit for internal decision support: ABC costing, variance analysis, transfer pricing, and responsibility accounting. Use for product profitability disputes, budget variance diagnosis, inter-division pricing design, and business-unit manager performance evaluation. Triggers: 『這個產品真的賺錢嗎』『成本分攤』『事業部之間怎麼算錢』『本月成本超支』『評核廠長績效』『內部轉撥』『ABC 作業成本』『差異分析』『責任中心』『管理會計』. For Taiwan EMBA cases, term reports, and management-decision simulations (台大／陽交／成大 財管必修)."
 metadata:
   category: "WP-15 商學院—財務"
   tags: ["management-accounting", "cost-accounting", "abc-costing", "variance-analysis", "transfer-pricing", "responsibility-accounting", "emba"]

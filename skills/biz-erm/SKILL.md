@@ -1,6 +1,6 @@
 ---
 name: "biz-erm"
-description: "企業風險管理（Enterprise Risk Management, ERM）框架層 — 整合 COSO ERM 2017（五大要素、二十條原則）、ISO 31000、三道防線模型、風險胃納（Risk Appetite）、風險熱圖（Risk Heatmap）、關鍵風險指標（KRI）六大核心，提供從風險治理結構到風險文化的完整 playbook。當使用者面對『公司要導 ERM』、『風險管理制度建置』、『風險地圖』、『風險胃納書』、『三道防線』、『風險長』、『金管會公司治理評鑑』、『董事會風險監督』等議題時觸發。常見句型：『ERM 導入』、『風險管理框架』、『COSO』、『風險地圖』、『風險胃納』、『KRI』、『CRO 職責』、『三道防線』、『風險委員會』、『風險治理結構』。適用師大、政大、陽明交大 EMBA 風險管理、公司治理、審計課程之個案與期末報告。補位 Asgard `algo-risk-*`（Altman Z、Benford、信用、VaR 等量化工具）之上的框架／治理層。"
+description: "Enterprise risk management (ERM) framework layer — integrates COSO ERM 2017 (five components, 20 principles), ISO 31000, three-lines model, risk appetite, risk heatmap, and key risk indicators (KRI) into a complete governance playbook covering structure through culture. Use for ERM implementation, risk-system build, risk mapping, risk-appetite statement drafting, three-lines setup, CRO role design, or Taiwan FSC corporate-governance evaluation response. Triggers: 『ERM 導入』『風險管理框架』『COSO』『風險地圖』『風險胃納』『KRI』『CRO 職責』『三道防線』『風險委員會』『ISO 31000』『風險熱圖』『風險治理』. For 師大／政大／陽交 EMBA risk-management/governance/audit cases. Complements Asgard `algo-risk-*` (Altman Z, Benford, credit, VaR) with the framework/governance layer."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["erm", "risk-management", "coso", "iso-31000", "three-lines-of-defense", "risk-appetite", "risk-heatmap", "governance", "emba"]

@@ -1,6 +1,6 @@
 ---
 name: "fin-m-and-a"
-description: "併購交易（Mergers & Acquisitions, M&A）整合 playbook — 涵蓋戰略動機分析、目標篩選、盡職調查（財稅／法務／商業 DD）、估值與估值橋、綜效分析、交易結構設計（資產 vs. 股權、現金 vs. 換股、earn-out）、SPA 關鍵條款、整合（PMI）八大模組。當使用者面對『併購案評估』、『併購估值爭議』、『交易結構設計』、『earn-out 設計』、『盡職調查範圍』、『綜效拆解』、『整合風險』、『敵意收購防禦』等議題時觸發。常見句型：『M&A』、『併購』、『收購』、『盡職調查』、『DD』、『估值橋』、『綜效』、『earn-out』、『換股比例』、『PMI』、『買殼』、『借殼上市』、『敵意併購』。適用台大、政大、陽明交大 EMBA 財管組、併購實務課程之個案與期末報告。補位 Asgard `biz-dcf`、`fin-modeling`（估值工具層）與 `biz-corporate-governance`（治理層）之上的交易層整合框架。"
+description: "M&A integration playbook covering eight modules: strategic rationale, target screening, due diligence (financial/legal/commercial), valuation with valuation bridge, synergy analysis, deal structuring (stock vs. asset, cash vs. equity, earn-out), SPA key clauses, and post-merger integration (PMI). Use for deal evaluation, valuation disputes, structure design, earn-out design, synergy breakdown, integration risk, or hostile takeover defense. Triggers: 『併購』『收購』『M&A』『盡職調查』『DD』『估值橋』『綜效』『earn-out』『換股比例』『PMI』『買殼』『借殼上市』『敵意併購』『交易結構』. For Taiwan EMBA 財管組 case studies and term reports (台大／政大／陽交). Complements Asgard `biz-dcf` and `fin-modeling` (valuation tools) plus `biz-corporate-governance` (governance layer) by providing the transaction-layer framework."
 metadata:
   category: "WP-08 商學院—財務"
   tags: ["m-and-a", "mergers-acquisitions", "due-diligence", "valuation-bridge", "synergy", "earn-out", "pmi", "deal-structure", "emba"]

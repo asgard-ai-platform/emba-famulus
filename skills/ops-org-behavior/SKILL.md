@@ -1,6 +1,6 @@
 ---
 name: "ops-org-behavior"
-description: "組織行為（OB）綜合工具箱：整合動機理論（Maslow／Herzberg／McGregor／McClelland／SDT）、團隊發展（Tuckman）、組織文化（Schein 三層次、Hofstede 文化維度）於單一診斷流程。當使用者需要診斷新接管團隊、分析個案中的組織問題、規劃文化改造、解釋員工激勵失靈、處理團隊卡關或跨文化管理時觸發。常見句型：『團隊士氣低』、『怎麼激勵這群人』、『文化怎麼改』、『新團隊怎麼帶』、『為什麼加薪沒效果』、『這家公司的文化到底是什麼』、『中美團隊管不動』。適用 EMBA 組織行為、人力資源、跨文化管理、領導力課程之個案分析與期末報告。本 skill 偏『綜合工具箱』，單一理論深挖請用 Asgard `grad-sdt`、`grad-social-identity`、`grad-sensemaking`。"
+description: "Integrated organizational-behavior diagnostic toolkit across three layers: individual motivation (Maslow/Herzberg/McGregor/McClelland/SDT), team dynamics (Tuckman), and organizational culture (Schein three levels, Hofstede). Use for diagnosing a new team, case-study OB problems, culture change, motivation failure, team stagnation, or cross-cultural management. Triggers: 『團隊士氣低』『怎麼激勵』『文化怎麼改』『新團隊怎麼帶』『加薪沒效果』『公司的文化』『跨國團隊管不動』『Maslow』『Herzberg』『Tuckman』『Schein』『Hofstede』. For Taiwan EMBA OB/HR/cross-cultural courses (陽交／清大／師大). Single-theory deep dives: use Asgard `grad-sdt`, `grad-social-identity`, `grad-sensemaking`."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["org-behavior", "motivation", "maslow", "herzberg", "sdt", "tuckman", "schein", "hofstede", "culture", "emba"]

@@ -1,6 +1,6 @@
 ---
 name: "biz-net-zero-transition"
-description: "淨零轉型實務 playbook：涵蓋溫室氣體盤查（ISO 14064-1、GHG Protocol 範疇 1/2/3）、科學基礎減量目標（SBTi）、TCFD 與 ISSB S1/S2 氣候揭露、台灣碳費制度、減碳路徑設計、內部碳定價、供應鏈碳管理、產品碳足跡、綠電採購與再生能源憑證（T-REC）。當使用者需要規劃公司減碳路徑、啟動碳盤查、回應碳費、撰寫 TCFD 報告、準備 ISSB 揭露、設計淨零策略、供應鏈脫碳、回應國際客戶（如 Apple、RE100 成員）要求時觸發。常見句型：『要做碳盤查』、『SBTi 怎麼申請』、『碳費怎麼算』、『TCFD 怎麼寫』、『淨零路徑』、『範疇 3 怎麼算』、『綠電怎麼買』、『CBAM 怎麼應對』。適用 EMBA ESG、永續、營運、策略、財金課程之個案分析與專題。本 skill 偏『台灣上市公司與供應鏈實務』，永續策略理論層請用 Asgard `grad-sustainability`。"
+description: "Net-zero transition playbook: GHG inventory (ISO 14064-1, GHG Protocol Scope 1/2/3), science-based targets (SBTi), TCFD and ISSB S1/S2 climate disclosure, Taiwan carbon fee, decarbonization roadmap, internal carbon pricing, supply-chain carbon, product carbon footprint, green electricity and T-REC. Use for corporate decarbonization roadmap, carbon inventory, carbon-fee response, TCFD/ISSB reporting, supply-chain decarbonization, or responding to international customers (Apple, RE100). Triggers: 『碳盤查』『SBTi』『碳費』『TCFD』『淨零路徑』『範疇 3』『綠電』『CBAM』『ISO 14064』『ISSB』『T-REC』. For Taiwan EMBA ESG/sustainability/operations/strategy/finance cases. Focuses on Taiwan listed-company and supply-chain practice; sustainability strategy theory: use Asgard `grad-sustainability`."
 metadata:
   category: "WP-34 跨學科/新興"
   tags: ["net-zero", "carbon", "ghg-protocol", "iso-14064", "sbti", "tcfd", "issb", "scope-3", "carbon-fee", "taiwan", "emba"]

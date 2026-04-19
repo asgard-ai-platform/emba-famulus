@@ -1,6 +1,6 @@
 ---
 name: "biz-crm-strategy"
-description: "顧客關係管理戰略（CRM Strategy）— 超越單一工具的整合性 CRM 戰略框架，涵蓋客戶分層（RFM／CLV 分群）、Journey Orchestration（跨通路旅程編排）、CDP 技術堆疊、會員體系設計、B2B 大客戶經營（KAM）、CRM 組織與治理六大主軸。當使用者面對『如何經營 VIP 客戶』、『會員制度要不要做』、『零售 / 電商 / B2B 的客戶經營體系』、『CDP 該買還是該自建』、『行銷自動化怎麼導』、『大客戶流失』等議題時觸發。常見句型：『CRM 系統』、『會員經營』、『客戶分級』、『大客戶策略』、『CDP』、『行銷自動化』、『客戶生命週期』、『VIP 方案』、『顧客忠誠』。適用師大 EMBA 顧客關係管理、政大電商經營、中山行銷管理之個案與期末報告。補位 Asgard `biz-cac-ltv`（戰術工具）、`biz-customer-journey`（單一方法）之上的戰略整合層。"
+description: "Customer relationship management strategy — integrated framework with six pillars: customer segmentation (RFM/CLV), journey orchestration (cross-channel), CDP technology stack, loyalty-program design, B2B key-account management (KAM), and CRM organization/governance. Use for VIP program design, membership-system decision, retail/ecommerce/B2B customer strategy, CDP buy-vs-build, marketing-automation adoption, or key-customer churn. Triggers: 『CRM 系統』『會員經營』『客戶分級』『大客戶策略』『CDP』『行銷自動化』『客戶生命週期』『VIP 方案』『顧客忠誠』『RFM』『CLV』『KAM』『Journey Orchestration』. For 師大 EMBA CRM, 政大 ecommerce, 中山 marketing cases. Complements Asgard `biz-cac-ltv` (tactics) and `biz-customer-journey` (single method) with the strategic integration layer."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["crm", "customer-strategy", "clv", "rfm", "cdp", "journey-orchestration", "loyalty-program", "kam", "b2b-sales", "emba"]

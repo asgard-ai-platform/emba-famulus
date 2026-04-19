@@ -1,6 +1,6 @@
 ---
 name: "ops-talent-strategy"
-description: "策略人資工具箱：以 9-box grid（績效 × 潛力）、繼任規劃（Succession Planning）、職能模型（Competency Model）、人才盤點（Talent Review）整合為一條可操作流程。當使用者需要診斷關鍵職缺風險、設計接班梯隊、規劃家族企業二代接棒、做年度人才盤點、建立職能／晉升制度或評估併購後的人才保留時觸發。常見句型：『誰來接班』、『關鍵職缺斷鏈』、『高潛人才看不清』、『績效考核跟晉升脫節』、『家族二代怎麼養』、『留才方案該留誰』。適用 EMBA 策略人資、組織行為、家族企業課程之個案分析與期末報告。本 skill 偏『策略／框架層』，演算工具請用 Asgard `algo-hr-compensation`、`algo-hr-matching`、`algo-hr-turnover`。"
+description: "Strategic talent-management toolkit integrating 9-box grid (performance × potential), succession planning, competency models, and talent review into one operational flow. Use for key-position-risk diagnosis, succession pipeline design, family-business second-generation grooming, annual talent review, competency/promotion systems, or post-M&A talent retention. Triggers: 『誰來接班』『關鍵職缺斷鏈』『高潛人才』『績效考核跟晉升脫節』『家族二代怎麼養』『留才方案』『9-box』『繼任規劃』『職能模型』『人才盤點』. For Taiwan EMBA strategic-HR/OB/family-business courses (政大／成大). Algorithmic HR tools: use Asgard `algo-hr-compensation`, `algo-hr-matching`, `algo-hr-turnover`."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["talent", "succession", "9-box", "competency", "hr-strategy", "family-business", "emba"]
