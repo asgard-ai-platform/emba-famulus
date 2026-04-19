@@ -55,7 +55,7 @@
 - **補位**：策略人資層，與 `algo-hr-*`（演算工具）互補
 - **範例情境**：關鍵職缺繼任、家族企業接班人才池
 
-### [ ] 5. `biz-corporate-governance`
+### [x] 5. `biz-corporate-governance`
 - **出處**：多校必修
 - **核心內容**：董事會組成、三道防線、審計／薪酬／提名委員會運作
 - **與 Asgard 邊界**：Asgard `grad-governance` 偏學理，本 skill 偏實務 playbook
