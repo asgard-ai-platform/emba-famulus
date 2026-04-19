@@ -67,7 +67,7 @@
 - **台灣特殊性**：金管會永續揭露要求、碳費制度
 - **範例情境**：上市公司減碳路徑、供應鏈碳盤查
 
-### [ ] 7. `biz-innovation-management`
+### [x] 7. `biz-innovation-management`
 - **出處**：台大、中山
 - **核心內容**：Stage-Gate、開放式創新、3 Horizons
 - **與 Asgard 邊界**：`ux-lean-startup`、`grad-disruptive-innovation` 已存在，本 skill 聚焦「企業內創新治理」
