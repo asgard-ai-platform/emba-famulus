@@ -361,8 +361,28 @@
     </div>
   </section>
 
-  <!-- INSTALL (Task 13) -->
-  <section id="install"></section>
+  <!-- INSTALL -->
+  <section id="install" class="bg-cream text-ink py-24">
+    <div class="max-w-5xl mx-auto px-6 md:px-10 lg:px-16">
+      <div class="max-w-3xl mb-12 reveal">
+        <div class="text-xs tracking-widest text-gold-600 font-medium mb-4">立即安裝</div>
+        <h2 class="font-display text-3xl md:text-5xl font-semibold text-ink leading-tight">
+          三種方式，<br>挑一個貼進 terminal。
+        </h2>
+      </div>
+
+      <!-- Install tabs -->
+      <div class="border-b border-navy-300 mb-8">
+        <div class="flex gap-1 overflow-x-auto -mb-px" role="tablist">
+          <button data-inst="marketplace" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-gold-500 text-navy-900" role="tab" aria-selected="true">Plugin Marketplace</button>
+          <button data-inst="git" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-transparent text-navy-700 hover:text-navy-900" role="tab" aria-selected="false">手動 git clone</button>
+          <button data-inst="asgard" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-transparent text-navy-700 hover:text-navy-900" role="tab" aria-selected="false">搭配 Asgard 同裝</button>
+        </div>
+      </div>
+
+      <div id="install-panels"></div>
+    </div>
+  </section>
 
   <!-- ACADEMIC INTEGRITY (Task 14) -->
   <section id="integrity"></section>

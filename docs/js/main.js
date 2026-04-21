@@ -248,3 +248,84 @@
     });
   });
 })();
+
+// --- Install tabs + copy-to-clipboard ---
+(() => {
+  'use strict';
+  const INSTALLS = {
+    marketplace: {
+      note: '最推薦。一行安裝，直接從 Claude Code 的 plugin marketplace 拿。',
+      code: '/plugin install asgard-ai-platform/emba-famulus',
+    },
+    git: {
+      note: '你想看原始檔或離線使用。',
+      code: 'git clone https://github.com/asgard-ai-platform/emba-famulus.git \\\n  ~/.claude/plugins/emba-famulus',
+    },
+    asgard: {
+      note: '同時裝上游 Asgard 200+ skill，完整生態。',
+      code: 'git clone https://github.com/asgard-ai-platform/emba-famulus.git \\\n  ~/.claude/plugins/emba-famulus\ngit clone https://github.com/asgard-ai-platform/skills.git \\\n  ~/.claude/plugins/asgard-skills',
+    },
+  };
+
+  const panels = document.getElementById('install-panels');
+  const tabs = document.querySelectorAll('[data-inst]');
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function render(key) {
+    const inst = INSTALLS[key];
+    panels.innerHTML = `
+      <div class="reveal is-visible">
+        <p class="text-lg text-ink leading-relaxed mb-5">${inst.note}</p>
+        <div class="relative">
+          <pre class="bg-navy-900 p-6 pr-20 font-mono text-sm text-gold-100 leading-loose whitespace-pre-wrap overflow-x-auto" data-code>${escapeHtml(inst.code)}</pre>
+          <button data-copy class="absolute top-4 right-4 px-3 py-1.5 text-xs font-semibold bg-gold-500 text-navy-900 hover:bg-gold-400 transition">Copy</button>
+        </div>
+      </div>
+    `;
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => {
+        t.setAttribute('aria-selected', 'false');
+        t.classList.remove('border-gold-500', 'text-navy-900');
+        t.classList.add('border-transparent', 'text-navy-700');
+      });
+      tab.setAttribute('aria-selected', 'true');
+      tab.classList.add('border-gold-500', 'text-navy-900');
+      tab.classList.remove('border-transparent', 'text-navy-700');
+      render(tab.dataset.inst);
+    });
+  });
+
+  render('marketplace');
+
+  // Delegated copy handler
+  panels.addEventListener('click', async (e) => {
+    const btn = e.target.closest('[data-copy]');
+    if (!btn) return;
+    const codeEl = btn.parentElement.querySelector('[data-code]');
+    const code = codeEl.textContent;
+    try {
+      await navigator.clipboard.writeText(code);
+    } catch {
+      // Fallback for insecure contexts
+      const ta = document.createElement('textarea');
+      ta.value = code;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      ta.remove();
+    }
+    const prev = btn.textContent;
+    btn.textContent = '已複製 ✓';
+    btn.classList.add('bg-gold-400');
+    setTimeout(() => {
+      btn.textContent = prev;
+      btn.classList.remove('bg-gold-400');
+    }, 1500);
+  });
+})();
