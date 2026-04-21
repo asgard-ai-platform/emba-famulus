@@ -243,8 +243,29 @@
     </div>
   </section>
 
-  <!-- OTHER WORKFLOWS (Task 10) -->
-  <section id="workflows"></section>
+  <!-- OTHER WORKFLOWS -->
+  <section id="workflows" class="bg-cream text-ink py-24">
+    <div class="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
+      <div class="max-w-3xl mb-12 reveal">
+        <div class="text-xs tracking-widest text-gold-600 font-medium mb-4">其他作業場景</div>
+        <h2 class="font-display text-3xl md:text-5xl font-semibold text-ink leading-tight">
+          案例不是你的題目？<br>Famulus 還有另外 5 個 workflow。
+        </h2>
+      </div>
+      <!-- Tab headers -->
+      <div class="border-b border-navy-300 mb-8">
+        <div class="flex gap-1 overflow-x-auto -mb-px" role="tablist">
+          <button data-wf="industry" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-gold-500 text-navy-900" role="tab" aria-selected="true">產業分析</button>
+          <button data-wf="thesis-qual" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-transparent text-navy-700 hover:text-navy-900" role="tab" aria-selected="false">畢業質性</button>
+          <button data-wf="thesis-quant" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-transparent text-navy-700 hover:text-navy-900" role="tab" aria-selected="false">畢業量化</button>
+          <button data-wf="pitch" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-transparent text-navy-700 hover:text-navy-900" role="tab" aria-selected="false">高管簡報</button>
+          <button data-wf="esg" class="whitespace-nowrap px-4 py-3 text-sm font-semibold border-b-2 border-transparent text-navy-700 hover:text-navy-900" role="tab" aria-selected="false">ESG 報告</button>
+        </div>
+      </div>
+      <!-- Tab panels -->
+      <div id="wf-panels"></div>
+    </div>
+  </section>
 
   <!-- SKILL CARDS (Task 11) -->
   <section id="skills"></section>

@@ -119,3 +119,79 @@
     }
   });
 })();
+
+// --- Workflow tabs ---
+(() => {
+  'use strict';
+  const WORKFLOWS = {
+    industry: {
+      scenario: '期末產業分析報告，14 天、40 頁。',
+      pipeline: ['biz-pestel', 'biz-porters-five-forces', 'biz-value-chain', 'fin-modeling', 'ops-pitch-deck'],
+      outputs: ['產業外部環境分析（PEST）', '競爭結構圖', '價值鏈定位', '財務模型試算', '高管簡報雛形'],
+    },
+    'thesis-qual': {
+      scenario: '質性論文，六個月產出 4–5 萬字。',
+      pipeline: ['grad-case-study', 'grad-grounded-theory', 'grad-systematic-review', 'grad-narrative'],
+      outputs: ['文獻回顧章節', '研究方法設計', '訪談 coding 架構', '主題分析與理論貢獻', '六個月節奏表'],
+    },
+    'thesis-quant': {
+      scenario: '量化論文，問卷回收到 SEM 一條龍。',
+      pipeline: ['grad-survey-design', 'stat-hypothesis-testing', 'grad-pls-sem', 'grad-sem'],
+      outputs: ['問卷結構與題項', '信效度分析', '假設與路徑圖', 'SEM 模型檢定', '章節骨架與口試準備'],
+    },
+    pitch: {
+      scenario: '董事會 / CEO 論壇 10 分鐘簡報。',
+      pipeline: ['ops-pitch-deck', 'hum-narrative', 'hum-rhetoric', 'meta-structured-problem'],
+      outputs: ['一頁摘要', '故事骨架（情境→衝突→決策）', '關鍵數字圖卡', 'Q&A 預演清單', '10 分鐘講稿'],
+    },
+    esg: {
+      scenario: '上市公司永續報告書章節草稿。',
+      pipeline: ['grad-sustainability', 'biz-net-zero-transition', 'biz-corporate-governance'],
+      outputs: ['重大性議題鑑別', 'SBTi 減碳路徑', '範疇 1/2/3 盤查架構', 'TCFD 揭露章節', '董事會治理段落'],
+    },
+  };
+
+  const panelsEl = document.getElementById('wf-panels');
+  const tabs = document.querySelectorAll('[data-wf]');
+
+  function render(key) {
+    const wf = WORKFLOWS[key];
+    panelsEl.innerHTML = `
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div>
+          <div class="text-xs tracking-wider text-gold-600 mb-2">情境</div>
+          <p class="font-display text-xl text-ink leading-relaxed mb-8">${wf.scenario}</p>
+          <div class="text-xs tracking-wider text-gold-600 mb-3">Skill Pipeline</div>
+          <div class="flex flex-wrap items-center gap-2">
+            ${wf.pipeline.map((s, i) => `
+              <span class="font-mono text-xs text-asgard-600 bg-white px-3 py-2 border border-asgard-500/30">${s}</span>
+              ${i < wf.pipeline.length - 1 ? '<span class="text-navy-300">→</span>' : ''}
+            `).join('')}
+          </div>
+        </div>
+        <div>
+          <div class="text-xs tracking-wider text-gold-600 mb-3">預期輸出物</div>
+          <ul class="space-y-3">
+            ${wf.outputs.map(o => `<li class="flex gap-3 text-ink"><span class="text-gold-600 mt-0.5">✓</span><span>${o}</span></li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    `;
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => {
+        t.setAttribute('aria-selected', 'false');
+        t.classList.remove('border-gold-500', 'text-navy-900');
+        t.classList.add('border-transparent', 'text-navy-700');
+      });
+      tab.setAttribute('aria-selected', 'true');
+      tab.classList.add('border-gold-500', 'text-navy-900');
+      tab.classList.remove('border-transparent', 'text-navy-700');
+      render(tab.dataset.wf);
+    });
+  });
+
+  render('industry');
+})();
