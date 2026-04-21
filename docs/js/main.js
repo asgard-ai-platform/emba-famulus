@@ -195,3 +195,56 @@
 
   render('industry');
 })();
+
+// --- Skill cards + filter ---
+(() => {
+  'use strict';
+  const SKILLS = [
+    { slug: 'biz-management-accounting', title: '管理會計', desc: 'ABC 作業成本、差異分析、轉撥計價', src: '台大 · 陽交 · 成大', cat: '財會' },
+    { slug: 'ops-leadership-styles', title: '領導風格決策樹', desc: '轉型／交易／僕人／情境／真誠領導選用', src: '台大 · 政大 · 師大', cat: '組織' },
+    { slug: 'ops-org-behavior', title: '組織行為工具箱', desc: '動機／團隊／文化三層診斷', src: '陽交 · 清大 · 師大', cat: '組織' },
+    { slug: 'ops-talent-strategy', title: '策略性人才管理', desc: '9-box、繼任規劃、職能模型', src: '政大 · 成大', cat: '組織' },
+    { slug: 'biz-corporate-governance', title: '公司治理', desc: '董事會、三道防線、獨董運作', src: '多校必修', cat: '策略' },
+    { slug: 'biz-net-zero-transition', title: '淨零轉型', desc: 'SBTi、範疇 1/2/3、TCFD 揭露', src: '陽交 · 政大', cat: '永續' },
+    { slug: 'biz-innovation-management', title: '創新管理', desc: 'Stage-Gate、3 Horizons、開放式創新', src: '台大 · 中山', cat: '創新' },
+    { slug: 'ops-digital-transformation', title: '數位轉型 Playbook', desc: '成熟度、治理、Operating Model', src: '多校', cat: '創新' },
+    { slug: 'grad-habitual-domain', title: '習慣領域（游伯龍）', desc: '突破思維定勢的七層決策', src: '陽交招牌', cat: '研究方法' },
+    { slug: 'biz-sme-management', title: '中小企業與家族企業', desc: '三圓模型、二代接班', src: '成大', cat: '策略' },
+    { slug: 'biz-crm-strategy', title: 'CRM 戰略', desc: '客戶分層、Journey、CDP 整合', src: '師大', cat: '策略' },
+    { slug: 'biz-erm', title: '企業風險管理', desc: 'COSO ERM、風險胃納、熱圖', src: '師大', cat: '財會' },
+    { slug: 'fin-m-and-a', title: '併購與整合', desc: '盡職調查、估值橋、earn-out', src: '多校財金', cat: '財會' },
+  ];
+
+  const grid = document.getElementById('skill-cards');
+  const filter = document.getElementById('skill-filter');
+
+  grid.innerHTML = SKILLS.map(s => `
+    <div data-cat="${s.cat}" class="p-6 bg-white border border-navy-100 transition-all duration-200">
+      <div class="font-mono text-xs text-asgard-600 mb-3">${s.slug}</div>
+      <div class="font-display text-xl font-semibold text-ink mb-2">${s.title}</div>
+      <p class="text-sm text-navy-700 leading-relaxed mb-4">${s.desc}</p>
+      <div class="text-xs tracking-wider text-gold-600">出處：${s.src}</div>
+    </div>
+  `).join('');
+
+  filter.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-cat]');
+    if (!btn) return;
+    const cat = btn.dataset.cat;
+
+    filter.querySelectorAll('button').forEach(b => {
+      b.classList.remove('bg-navy-900', 'text-gold-100', 'border-navy-900');
+      b.classList.add('bg-transparent', 'text-navy-700', 'border-navy-300');
+    });
+    btn.classList.add('bg-navy-900', 'text-gold-100', 'border-navy-900');
+    btn.classList.remove('bg-transparent', 'text-navy-700', 'border-navy-300');
+
+    grid.querySelectorAll('[data-cat]').forEach(card => {
+      if (cat === 'all' || card.dataset.cat === cat) {
+        card.classList.remove('opacity-[0.15]', 'grayscale', 'pointer-events-none');
+      } else {
+        card.classList.add('opacity-[0.15]', 'grayscale', 'pointer-events-none');
+      }
+    });
+  });
+})();

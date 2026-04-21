@@ -267,8 +267,29 @@
     </div>
   </section>
 
-  <!-- SKILL CARDS (Task 11) -->
-  <section id="skills"></section>
+  <!-- SKILL CARDS -->
+  <section id="skills" class="bg-paper text-ink py-24">
+    <div class="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
+      <div class="max-w-3xl mb-10 reveal">
+        <div class="text-xs tracking-widest text-gold-600 font-medium mb-4">13 個 EMBA 專屬 Skill</div>
+        <h2 class="font-display text-3xl md:text-5xl font-semibold text-ink leading-tight">
+          Asgard 沒覆蓋的，<br>我們補上。
+        </h2>
+      </div>
+      <!-- Filter bar -->
+      <div class="flex flex-wrap gap-2 mb-8" id="skill-filter">
+        <button data-cat="all" class="px-4 py-2 text-sm font-semibold bg-navy-900 text-gold-100 border border-navy-900">全部</button>
+        <button data-cat="策略" class="px-4 py-2 text-sm font-semibold bg-transparent text-navy-700 border border-navy-300 hover:border-navy-900">策略</button>
+        <button data-cat="財會" class="px-4 py-2 text-sm font-semibold bg-transparent text-navy-700 border border-navy-300 hover:border-navy-900">財會</button>
+        <button data-cat="組織" class="px-4 py-2 text-sm font-semibold bg-transparent text-navy-700 border border-navy-300 hover:border-navy-900">組織</button>
+        <button data-cat="創新" class="px-4 py-2 text-sm font-semibold bg-transparent text-navy-700 border border-navy-300 hover:border-navy-900">創新</button>
+        <button data-cat="永續" class="px-4 py-2 text-sm font-semibold bg-transparent text-navy-700 border border-navy-300 hover:border-navy-900">永續</button>
+        <button data-cat="研究方法" class="px-4 py-2 text-sm font-semibold bg-transparent text-navy-700 border border-navy-300 hover:border-navy-900">研究方法</button>
+      </div>
+      <!-- Cards grid -->
+      <div id="skill-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </div>
+  </section>
 
   <!-- ASGARD ECOSYSTEM (Task 12) -->
   <section id="ecosystem"></section>
