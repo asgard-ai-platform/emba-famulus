@@ -1,0 +1,84 @@
+/* EMBA Famulus — Design tokens
+ * Authoritative values defined in spec §6
+ */
+
+:root {
+  /* Navy — primary */
+  --navy-950: #060f1a;
+  --navy-900: #0b1a2b;
+  --navy-800: #13263d;
+  --navy-700: #1d3555;
+  --navy-300: #a8b3c2;
+  --navy-100: #d8dee6;
+
+  /* Gold — elite, used for CTA and emphasis */
+  --gold-600: #b08840;
+  --gold-500: #c9a961;
+  --gold-400: #dcc189;
+  --gold-100: #f3e9d2;
+
+  /* Asgard blue — brand lineage */
+  --asgard-700: #1d4fbf;
+  --asgard-600: #2563eb;
+  --asgard-500: #3b82f6;
+  --asgard-400: #60a5fa;
+
+  /* Neutrals */
+  --cream: #f7f3eb;
+  --paper: #faf8f3;
+  --ink: #0a0a0a;
+  --line: #223048;
+
+  /* Shadows */
+  --shadow-exec: 0 1px 2px rgba(0, 0, 0, 0.04),
+                 0 12px 32px rgba(11, 26, 43, 0.08);
+
+  /* Radii */
+  --radius-sm: 2px;
+}
+
+/* Font stacks */
+html {
+  font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+  letter-spacing: -0.01em;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", "SF Mono", "Consolas", monospace;
+}
+
+/* Smooth anchor scroll */
+html { scroll-behavior: smooth; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Fade-in on scroll (IntersectionObserver toggles .is-visible) */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 700ms ease-out, transform 700ms ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Focus ring — WCAG AA */
+:focus-visible {
+  outline: 2px solid var(--gold-500);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
