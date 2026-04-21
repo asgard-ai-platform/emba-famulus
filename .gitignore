@@ -4,3 +4,6 @@
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 .claude/*.lock
+
+# Brainstorming visual companion — 本地 mockup 暫存
+.superpowers/
