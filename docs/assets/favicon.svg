@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0b1a2b"/>
+  <path d="M32 12 L52 48 L12 48 Z" fill="#c9a961" opacity="1"/>
+  <path d="M32 22 L44 42 L20 42 Z" fill="#dcc189" opacity="0.55"/>
+  <text x="32" y="44" text-anchor="middle" font-family="serif" font-size="18" font-weight="700" fill="#0b1a2b">F</text>
+</svg>
