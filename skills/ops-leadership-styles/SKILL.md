@@ -1,6 +1,6 @@
 ---
 name: "ops-leadership-styles"
-description: "Leadership-style decision framework combining transformational, transactional, servant, situational, and authentic leadership into a situation-based decision tree. Use for diagnosing leadership challenges, succession planning, change management, crisis response, taking over a new team, or generational-gap issues. Triggers: 『該用什麼領導風格』『怎麼帶這個團隊』『接班交棒』『危機領導』『年輕員工不吃這一套』『威權還是授權』『轉型領導』『僕人領導』『情境領導』『真誠領導』. For Taiwan EMBA leadership courses (台大／政大／師大), executive self-diagnosis, and succession design."
+description: "Leadership-style decision framework combining transformational, transactional, servant, situational, and authentic leadership into a situation-based decision tree. Use for diagnosing leadership challenges, succession planning, change management, crisis response, taking over a new team, or generational-gap issues. Triggers: 『該用什麼領導風格』『怎麼帶這個團隊』『接班交棒』『危機領導』『年輕員工不吃這一套』『威權還是授權』『轉型領導』『僕人領導』『情境領導』『真誠領導』. For Taiwan EMBA leadership courses (台大／政大／師大), executive self-diagnosis, and succession-leadership style. 9-box/人才盤點/繼任規劃工具: use `ops-talent-strategy`."
 metadata:
   category: "WP-09 商學院—管理"
   tags: ["leadership", "transformational", "transactional", "servant-leadership", "situational-leadership", "authentic-leadership", "emba"]
