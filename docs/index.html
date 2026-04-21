@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EMBA Famulus — 為台灣八大 EMBA 在職學員設計的 agent plugin。三十分鐘，從空白到可以交的作業初稿。">
+  <meta name="author" content="Chris Yuan">
+  <meta property="og:title" content="EMBA Famulus — 三十分鐘，從空白到可以交的作業初稿">
+  <meta property="og:description" content="依託 Asgard 生態的 200+ 商管 skill，13 個 EMBA 專屬模組、6 個作業 workflow。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://asgard-ai-platform.github.io/emba-famulus/">
+  <meta property="og:image" content="https://asgard-ai-platform.github.io/emba-famulus/assets/og-image.svg">
+  <title>EMBA Famulus — 三十分鐘，從空白到可以交的作業初稿</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/tokens.css">
+
+  <!-- Google Fonts with font-display: swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap">
+
+  <!-- Tailwind CDN (play mode, supports inline config) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              950: '#060f1a', 900: '#0b1a2b', 800: '#13263d',
+              700: '#1d3555', 300: '#a8b3c2', 100: '#d8dee6',
+            },
+            gold: {
+              600: '#b08840', 500: '#c9a961', 400: '#dcc189', 100: '#f3e9d2',
+            },
+            asgard: {
+              700: '#1d4fbf', 600: '#2563eb', 500: '#3b82f6', 400: '#60a5fa',
+            },
+            cream: '#f7f3eb',
+            paper: '#faf8f3',
+            ink: '#0a0a0a',
+            line: '#223048',
+          },
+          fontFamily: {
+            display: ['"Noto Serif TC"', '"Songti TC"', 'serif'],
+            body: ['"Noto Sans TC"', '-apple-system', 'sans-serif'],
+            mono: ['"JetBrains Mono"', '"SF Mono"', 'monospace'],
+          },
+          maxWidth: {
+            '8xl': '1280px',
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-navy-900 text-gold-100 font-body">
+
+  <!-- NAV (Task 4) -->
+  <nav id="site-nav"></nav>
+
+  <!-- HERO (Task 5) -->
+  <section id="hero"></section>
+
+  <!-- NUMBERS (Task 6) -->
+  <section id="numbers"></section>
+
+  <!-- PAIN → SOLUTION (Task 7) -->
+  <section id="pain-solution"></section>
+
+  <!-- CASE STUDY WALKTHROUGH (Task 8-9) -->
+  <section id="case-study"></section>
+
+  <!-- OTHER WORKFLOWS (Task 10) -->
+  <section id="workflows"></section>
+
+  <!-- SKILL CARDS (Task 11) -->
+  <section id="skills"></section>
+
+  <!-- ASGARD ECOSYSTEM (Task 12) -->
+  <section id="ecosystem"></section>
+
+  <!-- INSTALL (Task 13) -->
+  <section id="install"></section>
+
+  <!-- ACADEMIC INTEGRITY (Task 14) -->
+  <section id="integrity"></section>
+
+  <!-- FOOTER (Task 14) -->
+  <footer id="site-footer"></footer>
+
+  <script src="js/case-study-data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
