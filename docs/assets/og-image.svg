@@ -4,7 +4,7 @@
   <path d="M1000 100 L1150 450 L850 450 Z" fill="#13263d" opacity="0.6"/>
   <g font-family="sans-serif">
     <rect x="80" y="100" width="3" height="24" fill="#c9a961"/>
-    <text x="100" y="118" fill="#c9a961" font-size="16" letter-spacing="4">ASGARD · FAMULUS</text>
+    <text x="100" y="118" fill="#c9a961" font-size="16" letter-spacing="4">EMBA FAMULUS · EMBA 書僮</text>
   </g>
   <g font-family="serif" fill="#f3e9d2">
     <text x="80" y="280" font-size="76" font-weight="600"><tspan fill="#c9a961">三十分鐘</tspan>，</text>
@@ -12,6 +12,6 @@
     <text x="80" y="480" font-size="76" font-weight="600">作業初稿。</text>
   </g>
   <text x="80" y="560" font-family="sans-serif" fill="#a8b3c2" font-size="22">
-    為台灣八大 EMBA 在職學員設計的 agent plugin · Part of the Asgard AI Platform
+    為台灣八大 EMBA 在職學員打造的 agent plugin · powered by Asgard
   </text>
 </svg>
