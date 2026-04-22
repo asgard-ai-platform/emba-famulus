@@ -354,7 +354,7 @@ Built by Chris Yuan · MIT License · 繁體中文（台灣）
 GitHub: asgard-ai-platform/emba-famulus
 Part of the ASGARD AI PLATFORM           [▲ 小 logo]
 
-致謝：游伯龍教授（1932–2022）
+致謝：游伯龍教授（1940–）
      習慣領域理論創建者、台灣原生管理理論的標竿
 ```
 

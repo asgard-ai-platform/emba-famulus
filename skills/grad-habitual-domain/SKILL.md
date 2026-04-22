@@ -11,7 +11,7 @@ metadata:
 
 ## 定位
 
-**Habitual Domain（HD）** 是台灣管理學界罕見走上國際的原生理論。游伯龍教授（1932–2022，美國 Kansas 大學講座教授、陽交大榮譽講座）1977 年起在 *Human Systems Management*、*Journal of Optimization Theory and Applications* 等期刊系統化提出。
+**Habitual Domain（HD）** 是台灣管理學界罕見走上國際的原生理論。游伯龍教授（1940–，美國 Kansas 大學講座教授、陽交大終身講座教授）1977 年起在 *Human Systems Management*、*Journal of Optimization Theory and Applications* 等期刊系統化提出。
 
 核心命題：**一個人的想法、觀念、判斷隨時間會「穩定化」成一組領域，決定他能想到什麼、想不到什麼。好決策不在智商高，而在能否擴展這個領域。**
 

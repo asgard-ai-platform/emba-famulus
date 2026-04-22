@@ -2,11 +2,11 @@
 
 ## 作者簡介
 
-**游伯龍（Po-Lung Yu, 1932–2022）**
-- 台灣彰化出生
+**游伯龍（Po-Lung Yu, 1940–）**
+- 台灣台中出生
 - 1963 Johns Hopkins University 作業研究博士
-- 美國 Kansas 大學商學院 Carl A. Scupin 講座教授（逝世前名譽教授）
-- 陽明交通大學榮譽講座教授
+- 美國 Kansas 大學商學院 Carl A. Scupin 講座教授、名譽教授
+- 陽明交通大學終身講座教授
 - 美國作業研究學會（ORSA）會士、國際多準則決策學會創始會員
 - 中研院院士候選人多年
 
@@ -22,7 +22,6 @@
 | 1995 | 《Habitual Domains: Freeing Yourself from the Limits on Your Life》 | 大眾化版本 |
 | 1999 | 中文版《HD：習慣領域 — 影響一生成敗的人性軟體》（時報文化） | 台灣讀者入口 |
 | 2009–2014 | *Human Systems Management*, *International Journal of Information Technology & Decision Making* 等持續發表 | 理論延伸：Competence Set, Knowledge-Based Decision |
-| 2022 | 逝世，陽交大設立紀念講座 | — |
 
 ## 理論三支柱
 
