@@ -262,8 +262,8 @@
       code: 'git clone https://github.com/asgard-ai-platform/emba-famulus.git \\\n  ~/.claude/plugins/emba-famulus',
     },
     asgard: {
-      note: '同時裝上游 Asgard 200+ skill，完整生態。',
-      code: 'git clone https://github.com/asgard-ai-platform/emba-famulus.git \\\n  ~/.claude/plugins/emba-famulus\ngit clone https://github.com/asgard-ai-platform/skills.git \\\n  ~/.claude/plugins/asgard-skills',
+      note: 'Asgard skills repo 是原料庫，本身沒有 <code class="font-mono text-sm bg-navy-800 px-1">plugin.json</code>，<strong>無法直接 clone 進 <code class="font-mono text-sm bg-navy-800 px-1">~/.claude/plugins/</code></strong>。Famulus 先裝好；Asgard skills plugin 待 Marketplace 上架後再透過以下指令補裝，或 clone 至工作區供開發查閱（不是 runtime plugin）。',
+      code: '# 安裝 EMBA Famulus\ngit clone https://github.com/asgard-ai-platform/emba-famulus.git \\\n  ~/.claude/plugins/emba-famulus\n\n# Asgard skills（待 Marketplace 上架後）\n# /plugin install asgard-ai-platform/skills\n\n# 或 clone 至工作區供查閱（非 plugin）\n# git clone https://github.com/asgard-ai-platform/skills.git \\\n#   ~/workspace/asgard-skills',
     },
   };
 

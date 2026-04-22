@@ -39,11 +39,20 @@ git clone https://github.com/asgard-ai-platform/emba-famulus.git ~/.claude/plugi
 
 ### 方式 C：搭配 Asgard skills 生態使用（推薦）
 
-本 plugin 大量依賴 Asgard 上游 skills。建議同時安裝：
+本 plugin 大量依賴 Asgard 上游 skills。Asgard skills repo 是**原料庫**（raw skill files），本身沒有 `plugin.json`，**無法直接 clone 進 `~/.claude/plugins/` 當 plugin 安裝**。
+
+正確做法是透過 Marketplace 安裝已打包的 Asgard plugin：
 
 ```bash
-# Asgard skills（263 個商管／研究方法／資料分析 skill）
-git clone https://github.com/asgard-ai-platform/skills.git ~/.claude/plugins/asgard-skills
+# 安裝 Asgard skills plugin（待 marketplace 上架後）
+/plugin install asgard-ai-platform/skills
+```
+
+若要在本機開發時**參照** Asgard 的 skill 內容（查命名、查既有覆蓋範圍），可 clone 到工作區供查閱用：
+
+```bash
+# 僅供開發參考，不是 runtime plugin
+git clone https://github.com/asgard-ai-platform/skills.git ~/workspace/asgard-skills
 ```
 
 ## 目錄結構
