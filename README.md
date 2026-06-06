@@ -19,40 +19,26 @@
 - **語言**：繁體中文（台灣）
 - **風格**：企業級口吻、actionable insight、扣回授課者偏好
 
-## 快速開始
+## 安裝
 
-### 方式 A：Claude Code Marketplace（推薦）
-
-```bash
-# 安裝（待 marketplace 上架後）
-/plugin install asgard-ai-platform/emba-famulus
-```
-
-### 方式 B：手動 clone
+### Claude Code
 
 ```bash
+# 手動 clone（marketplace 上架前的主要安裝方式）
 git clone https://github.com/asgard-ai-platform/emba-famulus.git ~/.claude/plugins/emba-famulus
 
-# 驗證安裝
+# 在 Claude Code 內驗證安裝
 /plugins
 ```
 
-### 方式 C：搭配 Asgard skills 生態使用（推薦）
+> Marketplace 上架後可改用一行指令：`/plugin install asgard-ai-platform/emba-famulus`。
 
-本 plugin 大量依賴 Asgard 上游 skills。Asgard skills repo 是**原料庫**（raw skill files），本身沒有 `plugin.json`，**無法直接 clone 進 `~/.claude/plugins/` 當 plugin 安裝**。
+## 搭配 Asgard skills 生態（建議）
 
-正確做法是透過 Marketplace 安裝已打包的 Asgard plugin：
+本 plugin 大量依賴 Asgard 上游 skills。Asgard skills repo 是原料庫，請透過 Marketplace 安裝已打包的 Asgard plugin：
 
 ```bash
-# 安裝 Asgard skills plugin（待 marketplace 上架後）
 /plugin install asgard-ai-platform/skills
-```
-
-若要在本機開發時**參照** Asgard 的 skill 內容（查命名、查既有覆蓋範圍），可 clone 到工作區供查閱用：
-
-```bash
-# 僅供開發參考，不是 runtime plugin
-git clone https://github.com/asgard-ai-platform/skills.git ~/workspace/asgard-skills
 ```
 
 ## 目錄結構
